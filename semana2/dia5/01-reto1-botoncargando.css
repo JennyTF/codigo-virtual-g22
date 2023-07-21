@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+}
+button{
+	background-image: linear-gradient(to right, violet,  #6a0960);
+	width: 8rem;
+	background-size: 16rem;
+	background-position: -8rem;
+	transition:background-oisition 0.5s ease 0s;
+}
+
+button:hover {
+	background-position: 0;
+}

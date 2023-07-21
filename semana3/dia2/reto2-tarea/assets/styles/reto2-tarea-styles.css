@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+:root{
+    --color-tx-amarillento: hsl(35, 77%, 62%);
+    --color-tx-naranja:hsl(5, 85%, 63%);
+    --color-tx-blanco:hsl(36, 100%, 99%);
+    --color-tx-grisclaro:hsl(233, 8%, 79%);
+    --color-tx-grisoscuro:hsl(236, 13%, 42%);
+    --color-tx-negro:hsl(240, 100%, 5%);
+}
+
+body{
+    min-height: 100vh;
+    background-color: var(--color-tx-blanco);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    padding: 2.5rem;
+    text-align: center;
+    align-items: center;
+}
+
+.links{
+    margin-left: 3rem;
+}
+
+.titulocentrado{
+    display: flex;
+}
+
+h1{
+    text-align: left;
+    font-size: 4rem;
+}
+
+.portada{
+    object-fit: cover;
+}
+
+.descripcion{
+    line-height: 2rem;
+    text-align: justify;
+}
+
+button{
+    padding: 1rem;
+    width: 30%;
+    color: var(--color-tx-blanco);
+    background-color: var(--color-tx-naranja);
+    border-bottom: 0px;
+    border: none;
+    letter-spacing: 0.5rem;
+}
+
+main{
+    max-width: 500px;
+    background-color: white;
+    display: flex;
+    padding: 1rem;
+}
+
+.columna {
+    flex: 1;
+    padding: 1rem;
+    min-width: 400px;
+    background-color: var(--color-tx-negro);
+    color: var(--color-tx-blanco);
+}
+div ul h2 {
+    color: var(--color-tx-amarillento);
+    font-size: 4rem;
+    padding: 2rem;
+    padding-left: 0;
+}
+
+ul{
+    padding: 1rem;
+    line-height: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+section p{
+    padding: 1rem;
+}
+
+footer{
+    display: flex;
+    padding: 1rem;
+}
+
+.pie1, .pie2, .pie3 {
+    padding: 2rem;
+    align-items: center;
+    line-height: 2.5rem;
+}
+
+.numero1, .numero2, .numero3{
+    color: var(--color-tx-grisclaro);
+    font-size: 3rem;
+}

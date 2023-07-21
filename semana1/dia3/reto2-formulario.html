@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reto2-formulario.css">
+    <title>2do.Formulario-2do.Reto</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <section>
+            <form action="">
+                <table>
+                    <thead>
+                        <tr class="primera_fila">
+                            <td colspan="4">Sign Up</td> 
+                        </tr>
+                    </thead>
+                    
+                    <tr>
+                        <td class="labels">First Name</td>
+                        <td colspan="3"> <input type="text" required placeholder="Enter First Name"> </td>
+                    </tr>
+                    <tr>
+                        <td class="labels">Last Name</td>
+                        <td colspan="3"> <input type="text" required placeholder="Enter Last Name"> </td>
+                    </tr>
+                    <tr>
+                        <td class="labels" >Date of Birth</td>
+                        <td colspan="3">
+                            <select name="day">
+                                <option value="day">Day</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                            
+                            <select name="month">
+                                <option value="month">Month</option>
+                                <option value="january">January</option>
+                                <option value="february">February</option>
+                                <option value="march">March</option>
+                                <option value="April">April</option>
+                                <option value="may">May</option>
+                                <option value="june">June</option>
+                                <option value="july">July</option>
+                                <option value="august">August</option>
+                                <option value="september">September</option>
+                                <option value="october">October</option>
+                                <option value="november">November</option>
+                                <option value="december">December</option>
+                            </select>
+                            <select name="year">
+                                <option value="year">Year</option>
+                                <option value="2001">2001</option>
+                                <option value="2002">2002</option>
+                                <option value="2003">2003</option>
+                                <option value="2004">2004</option>
+                                <option value="2005">2005</option>
+                                <option value="2006">2006</option>
+                                <option value="2007">2007</option>
+                                <option value="2008">2008</option>
+                                <option value="2009">2009</option>
+                                <option value="2010">2010</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="labels">Gender</td>
+                        <td colspan="2">
+                            <input type="radio" name="gender" value="m" id="male" required>
+                            <label class="gender" for="male">Male</label>
+
+                            <input type="radio" name="gender" required id="female" value="f">
+                            <label class="gender" for="femele">Female</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="labels" >Country</td>
+                        <td colspan="3">
+                            <select name="country">
+                                <option value="country">Country</option>
+                                <option value="usa">USA</option>
+                                <option value="canada">Canada</option>
+                                <option value="england">England</option>
+                                <option value="spain">Spain</option>
+                                <option value="france">France</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="labels" >E-Mail</td>
+                        <td colspan="3"><input type="email" id="email" name="email" placeholder="Enter E-Mail"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td class="labels" >Phone</td>
+                        <td colspan="3">
+                        <input type="text" id="phone" minlength="10" max="10" pattern="0-9" placeholder="Enter Phone">
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td class="labels" >Password</td>
+                        <td colspan="3">
+                            <input type="password" id="pass"
+                            name="pass" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="labels" >Confirm Password</td>
+                        <td colspan="3">
+                            <input type="password" id="confpass" name="pass" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td colspan="3" class="labels">
+                            <input type="checkbox" id="term">
+                            <label for="term">I Agree to the <a rel="stylesheet" href="terms.html">Term of use </a></label>
+                        </td>
+                    </tr>
+                    
+                    <tfoot>
+                    <tr class="ultimafila" >
+                        <td colspan="2"></td>
+                        <td colspan="2">
+                            <button class="enviar" type="submit">Enviar</button>
+                            <button class="cancel"  type="reset">Cancel</button>
+                        </td>
+                    </tr>
+                </tfoot>
+                </table>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

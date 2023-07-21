@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+    padding: 40px 0;
+}
+
+p{
+    font-size: 1rem;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1 fr);
+    grid-auto-rows: minmax(250px auto);
+    height: 100vh;
+}
+
+
+.box-1{
+    background-color: black;   
+}
+

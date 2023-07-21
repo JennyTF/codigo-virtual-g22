@@ -1,0 +1,44 @@
+/* estilos por tag */
+/* h1{color: red;}
+h1{color:brown;}
+p{color:blue;}
+span{color:violet;}
+div p{color:red;}
+
+
+
+Selectores por Clases*/
+
+.nombre
+{
+    color: green;
+    border: 5px solid red;
+}
+.secundario
+{
+    color: red;
+}
+
+/* SELECTORES POR ID*/
+
+#primary
+{
+    color: blueviolet;
+}
+
+#primary{color: red;}
+
+/* SELECTOR UNIVERSAL ES EL ASTERISCO, es para todos los que no tengan clasificador*/
+*
+{
+    color: blue;
+}
+
+/*SELECTORES POR ATRIBUTOS*/
+input[type="text"]{border: solid orange 3px;}
+
+input[type="number"]{border: solid green 3px;}
+
+/*selector descendente*/
+
+

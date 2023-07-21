@@ -1,0 +1,25 @@
+/* elemento bloqueante es el H1.
+
+- Propiedades de Texto.*/
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family:'Roboto', sans-serif;
+}
+header{
+    font-size: 20px;
+}
+
+h1 {
+    font-family:cursive;
+    font-size: 3em;
+}
+/*1 rem = 16px*/
+
+/*Grosor de la letra que tan negrito lo queremos*/
+
+h2{
+    font-weight: normal;
+}
