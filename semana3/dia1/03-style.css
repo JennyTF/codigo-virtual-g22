@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+}
+header{
+    background-color: blue;
+    flex-grow: 1;
+}
+main{
+    background-color: antiquewhite;
+    flex: 8;
+    align-items: center;
+    gap: 1rem ;
+}
+
+.main1{
+    display: flex;
+    flex: 50%;
+}
+
+section{
+    background-color: greenyellow;
+    width: 70%;
+}
+
+aside{
+    background-color: violet;
+    width: 30%;
+}
+
+.main2{
+    display: flex;
+    flex: 50%;
+}
+
+
+
+.twin {
+    background-color: orange;
+    width: 100%;
+}
+footer{
+    background-color: blue;
+    flex: 1;
+}

@@ -1,0 +1,39 @@
+.primera_fila {
+    background-color: orange;
+    color: #EFCF12;
+}
+
+table{
+    background-color: #050633;
+    border-collapse: collapse
+
+}
+
+
+.labels {
+   color: #EFCF12;
+}
+
+.gender {
+    color: #EFCF12;
+}
+
+.enviar {
+    color: white;
+    background-color: green;
+    border: none;
+    width: 5rem;
+    height: 2rem;
+}
+
+.cancel {
+    color: white;
+    background-color:red;
+    border: none;
+    width: 5rem;
+    height: 2rem;
+}
+
+.ultimafila{
+    background-color: orange;
+}

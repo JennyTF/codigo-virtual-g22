@@ -1,0 +1,28 @@
+h1 {
+    color: peru;
+}
+
+
+h2 {
+    color: #34f44c
+    ;
+}
+
+h3{
+    color: rgb(227, 137, 135);
+}
+
+h4{
+    color: hsl(7, 65% , 69%);
+}
+
+
+.noticias{
+    background-color: #bbb;
+    width: 20rem;
+    height: 9.5rem;
+    text-align: center;
+    overflow: auto;
+
+
+}

@@ -1,0 +1,17 @@
+body{background-image: url(imagen/clean.jpeg);
+background-size: cover;}
+
+.cartilla
+{
+    background-color: hsl(222, 15%, 15%, 0.6);
+    width: 380px;
+    height: 600px;
+    border: solid red 2px;
+    margin-left: 30%;
+    
+
+}
+
+
+.caritaredonda{border-radius: 50%; width: 300px; height: 300px;}
+

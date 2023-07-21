@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+.grid-container{
+    height: 100vh;
+    display: grid;
+    padding: 20px;
+    border:solid;
+    grid-template-columns: 200px auto ;
+    grid-template-rows: 100px auto 100px;
+    
+    grid-template-areas:
+    "header header header"
+    "nav section section"
+    "nav section section"
+    "footer footer footer";
+}
+.header{
+    background-color: yellow;
+    grid-area: header;    
+}
+.nav{
+    background-color: orange;
+    grid-area: nav;
+}
+/*.aside{
+    background-color: blue;
+    grid-area: aside;
+}*/
+.section{
+    background-color: green;
+    grid-area: section;
+    border: 2px solid black;
+}
+.footer{
+    background-color: brown;
+    grid-area: footer;
+}
+
+

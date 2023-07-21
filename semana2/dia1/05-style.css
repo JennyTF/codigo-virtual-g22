@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+main{
+    min-height: 100vh;
+    border: 2px solid red;
+    background-color:beige;
+    background-image: url(textura.jpeg);
+    background-repeat: repeat;
+    
+
+}
+
+
+section{
+    
+}
